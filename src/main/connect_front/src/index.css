@@ -1,0 +1,101 @@
+html{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  font-family:'GmarketSansMedium';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+button{
+  font-family: GmarketSansMedium;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#scroll{
+  height: 800px;
+  overflow-y: auto;
+
+}
+#scroll::-webkit-scrollbar {
+  width: 8px;  /* 스크롤바의 너비 */
+}
+
+#scroll::-webkit-scrollbar-thumb {
+  height: 10%; /* 스크롤바의 길이 */
+  background: #90c968; /* 스크롤바의 색상 */
+  border-radius: 10px;
+}
+
+#scroll::-webkit-scrollbar-track {
+  background: #f7e7cd;  /*스크롤바 뒷 배경 색상*/
+}
+
+/* 초기값 */
+ul {list-style: none; padding: 0; margin: 0;}
+p {padding: 0; margin: 0;}
+
+/* 레이아웃 (width,height 가운데 정렬) */
+#container {
+    width: 480px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 10px #e8e8e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerContainer {
+    width: 90%;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 1px 1px 10px #e8e8e8;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.headerImg img{
+  width: 100px;
+  margin-top: 5px;
+}
+.headerProfile {
+  display: flex;
+  justify-content: end;
+
+}
+.headerProfile div {
+  display: flex;
+  flex-direction: column;
+}
+.headerProfile img{
+  width: 44px;
+  height: 44px;
+  border-radius: 50%
+}
+.header ul {
+    display: flex;
+    justify-content: end;
+}
+.header ul li {
+    margin-left: 10px;
+}
+.footer{
+    height: 50px;
+    text-align: center;
+}

@@ -1,0 +1,110 @@
+#totalBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+#loginBox{
+    border-radius: 5px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: #f7f7f7; */
+}
+
+.loginImg{
+    margin-bottom: 20px;
+}
+
+.loginForm p{
+    margin: 10px 0px;
+}
+
+.signUp{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.signUp a {
+    position: relative;
+    text-decoration: none;
+    color: #787a7d;
+    display: inline-block;
+    
+}
+
+.signUp a:before {
+    position: absolute; /* 절대 위치 */
+    bottom: -2px; /* 링크 아래에 배치 */
+    left: 0; /* 링크의 시작점부터 */
+    width: 100%; /* 가로폭 100% */
+    height: 2px; /* 높이 */
+    background-color: #000; /* 밑줄 색상 */
+    transform: scaleX(0); /* 초기에는 밑줄이 없도록 설정 */
+    transition: transform 0.3s ease; /* 변환 효과를 부드럽게 만듦 */
+}
+
+
+.topImg {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    border-radius: 50%;
+    padding-right: 7px;
+}
+
+.topImg img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.logBtn {
+    /* background-color: #1B4288 !important; */
+    margin-top: 10px !important;
+}
+
+.css-kf85qm-JoyInput-root:not([data-skip-inverted-colors]){
+    --Input-focusedHighlight:#FEC767 !important;
+}
+ /* myInfo */
+.topInfo {
+    display: flex;
+    margin: 30px 0 20px;
+}
+.birCard {
+    display: inline-block;
+}
+.myInfoEdit{
+    display: flex;
+    align-items: center;
+}
+
+.content div{
+    margin-bottom: 5px;
+}
+
+.content button{
+    margin-bottom: 5px;
+}
+
+.editBtn{
+    display: flex;
+    justify-content: space-between;
+}
+.topInfo3 {
+    display: flex;
+    align-items: center;
+    padding: 25px 5px;
+    border-bottom: 1px solid #e8e8e8;
+
+}
+
+.topInfo4 {
+    display: flex;
+    justify-content: space-between;
+}
+.searchM {
+    display: block;
+}
